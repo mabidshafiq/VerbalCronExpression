@@ -33,7 +33,7 @@ String exp = ce.cronExp().minuteOfHour("0,15,30,45")
 				.everyYear()
 				.generate();
 ```
-Result: 59 23 31 12 5 * root ls
+Result: 0,15,30,45 0,6,12,18 1,15,31 * 1-5 *  
 
 
 Look into [Test Class](https://github.com/mabidshafiq/VerbalCronExpression/blob/master/src/test/java/com/mabid/verbal/CronExpressionTest.java) for more scenarios to create Cron expression using Verbal Cron Expression tool.
